@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.getElementById('site-header');
   const menuBtn = document.getElementById('menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
-  const menuLinks = header.querySelectorAll('nav a, nav button');
-
+  const menuLinks = header.querySelectorAll('nav a:not([href="#booking"]), nav button');
+  
   let lastScrollTop = 0;
 
   // ===== Scroll: Hide/Show Header + Dynamic Nav Color =====
@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (hero) {
       const heroRect = hero.getBoundingClientRect();
       if (heroRect.bottom > 0) {
-        // Hero visible → white nav
+        // Hero visible → white nav links
         menuLinks.forEach(link => link.classList.remove('text-brand-700'));
         menuLinks.forEach(link => link.classList.add('text-brand-50'));
       } else {
-        // Hero scrolled past → deep blue nav
+        // Hero scrolled past → deep blue nav links
         menuLinks.forEach(link => link.classList.remove('text-brand-50'));
         menuLinks.forEach(link => link.classList.add('text-brand-700'));
       }
