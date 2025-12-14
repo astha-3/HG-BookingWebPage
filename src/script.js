@@ -24,20 +24,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const hero = document.getElementById('home');
     if (hero) {
       const heroRect = hero.getBoundingClientRect();
+      const heroVisible = heroRect.bottom > 0;
 
       // Nav links
-      if (heroRect.bottom > 0) {
-        menuLinks.forEach(link => link.classList.remove('text-brand-700'));
-        menuLinks.forEach(link => link.classList.add('text-brand-50'));
-      } else {
-        menuLinks.forEach(link => link.classList.remove('text-brand-50'));
-        menuLinks.forEach(link => link.classList.add('text-brand-700'));
-      }
+      menuLinks.forEach(link => {
+        link.classList.toggle('text-brand-50', heroVisible); // white on hero
+        link.classList.toggle('text-brand-700', !heroVisible); // deep blue after hero
+      });
 
-      // Book Now button text (always dark blue)
+      // Book Now button text
       if (bookBtn) {
-        bookBtn.classList.remove('text-brand-50', 'text-brand-700');
-        bookBtn.classList.add('text-brand-700');
+        bookBtn.classList.toggle('text-brand-50', heroVisible); // white on hero
+        bookBtn.classList.toggle('text-brand-700', !heroVisible); // dark on light sections
       }
     }
   });
